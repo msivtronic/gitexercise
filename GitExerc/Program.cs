@@ -6,6 +6,8 @@ namespace GitExerc
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(DateTime.Now.ToLongDateString());
             Console.WriteLine("Hello World!");
 
             int hour = DateTime.Now.Hour;
@@ -22,6 +24,8 @@ namespace GitExerc
             {
                 Console.WriteLine("Good Night!");
             }
+
+   
 
             Console.ReadLine();
         }
