@@ -25,8 +25,6 @@ namespace GitExerc
                 Console.WriteLine("Good Night!");
             }
 
-   
-
             Console.ReadLine();
         }
     }
